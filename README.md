@@ -3,13 +3,13 @@
 ## Getting Started
 Let’s start your Rust journey! There’s a lot to learn, but every journey starts somewhere. In this chapter, we’ll discuss:
 
-### Installing Rust on Windows
+### _Installing Rust on Windows_
 Writing a program that prints Hello, world!
 Using cargo, Rust’s package manager and build system
 
 The first step is to install Rust. We’ll download Rust through rustup, a command line tool for managing Rust versions and associated tools.
 
-### Installing rustup on Windows
+### _Installing rustup on Windows_
 On Windows, go to https://www.rust-lang.org/tools/install and follow the instructions for installing Rust. 
 
 **To check whether you have Rust installed correctly, open a shell and enter this line:**
@@ -28,7 +28,7 @@ In Windows CMD, use:**
 > echo %PATH%
 
 
-## Hello, Cargo!
+## _Hello, Cargo!_
 Cargo is Rust’s build system and package manager. Most Rustaceans use this tool to manage their Rust projects because Cargo handles a lot of tasks for you, such as building your code, downloading the libraries your code depends on, and building those libraries. (We call the libraries that your code needs dependencies.)
 
 **If you installed Rust through some other means, check whether Cargo is installed by entering the following in your terminal:**

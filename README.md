@@ -16,14 +16,17 @@ On Windows, go to https://www.rust-lang.org/tools/install and follow the instruc
 
 $ rustc --version
 
+
 **You should see the version number, commit hash, and commit date for the latest stable version that has been released, in the following format:**
 
 rustc x.y.z (abcabcabc yyyy-mm-dd)
+
 
 **If you see this information, you have installed Rust successfully! If you don’t see this information, check that Rust is in your %PATH% system variable as follows.
 In Windows CMD, use:**
 
 > echo %PATH%
+
 
 ## Hello, Cargo!
 Cargo is Rust’s build system and package manager. Most Rustaceans use this tool to manage their Rust projects because Cargo handles a lot of tasks for you, such as building your code, downloading the libraries your code depends on, and building those libraries. (We call the libraries that your code needs dependencies.)
@@ -32,20 +35,25 @@ Cargo is Rust’s build system and package manager. Most Rustaceans use this too
 
 $ cargo --version
 
+
 **Creating a Project with Cargo:**
 
 $ cargo new Project_Name
+
 $ cd Project_Name
+
 
 **Building and Running a Cargo Project:**
 
 $ cargo build
+
 $ .\target\debug\hello_cargo.exe 
 
 
 **We just built a project with cargo build and ran it with ./target/debug/hello_cargo, but we can also use cargo run to compile the code and then run the resultant executable all in one command:**
 
 $ cargo run
+
 
 **Cargo also provides a command called cargo check. This command quickly checks your code to make sure it compiles but doesn’t produce an executable:**
 

@@ -1,4 +1,4 @@
-# Rust-Programming
+﻿# Rust-Programming
 
 Getting Started
 Let’s start your Rust journey! There’s a lot to learn, but every journey starts somewhere. In this chapter, we’ll discuss:
@@ -35,6 +35,7 @@ $ cd Project_Name
 Building and Running a Cargo Project:
 $ cargo build
 $ .\target\debug\hello_cargo.exe 
+
 
 We just built a project with cargo build and ran it with ./target/debug/hello_cargo, but we can also use cargo run to compile the code and then run the resultant executable all in one command:
 $ cargo run
